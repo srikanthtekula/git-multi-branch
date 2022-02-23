@@ -6,7 +6,7 @@
                 branch 'master'
             }
             steps {
-                echo ' Building Master successful'
+                echo ' Building Mastere successful'
             }
         }
 		
@@ -15,7 +15,7 @@
                 branch 'dev'
             }
             steps {
-                echo ' Building Dev successful'
+                echo ' Building Deve successful'
             }
         }
 		
@@ -24,7 +24,7 @@
                 branch 'qa'
             }
             steps {
-                echo ' Building QA successful'
+                echo ' Building QAa successful'
             }
         }
     }

@@ -19,5 +19,13 @@
             }
         }
 		
+		stage('Build QA') {
+            when {
+                branch 'qa'
+            }
+            steps {
+                echo ' Building QA successful'
+            }
+        }
     }
 }
